@@ -49,6 +49,7 @@ with st.container():
             Passionate to learn about new technologies in the filed of Engineering and Science and also excited to work on projects."""
         )
         st.write("[Linkedin](www.linkedin.com/in/ashutosh-sharma-443710253)")
+        st.write("[Kaggle Profile](www.kaggle.com/ashu009)")
 
     with right_column:
         # Load and resize profile picture (optional: adjust size as needed)
