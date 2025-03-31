@@ -52,7 +52,7 @@ with st.container():
 
     with right_column:
         # Load and resize profile picture (optional: adjust size as needed)
-        profile_pic = Image.open("images/profile.jpg").resize((300, 300))
+        profile_pic = Image.open("images/profile.jpg").resize((400, 300))
         st.image(profile_pic, use_container_width=False)
 
         
