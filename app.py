@@ -25,9 +25,9 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_facial = Image.open("images\facial-recog.jpeg").resize((500, 250))
-img_pravah = Image.open("images\pravah.png").resize((400, 270))
-img_real_fake = Image.open("images\images (2).jpeg").resize((400, 300))
+img_facial = Image.open("images/facial-recog.jpeg").resize((500, 250))
+img_pravah = Image.open("images/pravah.png").resize((400, 270))
+img_real_fake = Image.open("images/images (2).jpeg").resize((400, 300))
 
 # ---- HEADER SECTION ----
 # with st.container():
@@ -52,7 +52,7 @@ with st.container():
 
     with right_column:
         # Load and resize profile picture (optional: adjust size as needed)
-        profile_pic = Image.open("images\profile.jpg").resize((300, 300))
+        profile_pic = Image.open("images/profile.jpg").resize((300, 300))
         st.image(profile_pic, use_container_width=False)
 
         
