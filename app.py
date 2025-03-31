@@ -48,8 +48,7 @@ with st.container():
             """I am an AI&ML enthusiast , currently pursuing B.Tech in Computer Science And Engineering (Artificial Intelligence And Machine Learning).
             Passionate to learn about new technologies in the filed of Engineering and Science and also excited to work on projects."""
         )
-        st.write("[Linkedin](www.linkedin.com/in/ashutosh-sharma-443710253)")
-        st.write("[Kaggle Profile](www.kaggle.com/ashu009)")
+        st.markdown("[Linkedin](https://www.linkedin.com/in/ashutosh-sharma-443710253) | [Kaggle Profile](https://www.kaggle.com/ashu009)", unsafe_allow_html=True)
 
     with right_column:
         # Load and resize profile picture (optional: adjust size as needed)
