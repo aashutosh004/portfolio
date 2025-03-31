@@ -43,7 +43,7 @@ with st.container():
     left_column, right_column = st.columns((2, 1))  # 2:1 ratio for text:image
     with left_column:
         st.subheader("Namaste, I am Ashutosh Sharma 👨‍💻")
-        st.title("A Computer Science and AIML Engineer")
+        st.title("A Computer Science and AI&ML Engineer")
         st.write(
             """I am an AI&ML enthusiast , currently pursuing B.Tech in Computer Science And Engineering (Artificial Intelligence And Machine Learning).
             Passionate to learn about new technologies in the filed of Engineering and Science and also excited to work on projects."""
